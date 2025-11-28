@@ -1,3 +1,9 @@
+manifest_version: 1
 
-  - snowflake-snowpark-python=
-  - streamlit=
+artifacts:
+  streamlit:
+    - streamlit_app.py
+
+environment:
+  python: "3.10"
+  environment_file: environment.yml
