@@ -1,7 +1,10 @@
-name: app_environment
+
+name: requirements.txt
 channels:
-  - snowflake
+  - conda-forge
 dependencies:
-  - python=3.11.*
-  - snowflake-snowpark-python=
-  - streamlit=
+  - python=3.10
+  - pip
+  - pip:
+      - snowflake-snowpark-python
+      - streamlit
