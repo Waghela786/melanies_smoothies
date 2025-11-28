@@ -1,9 +1,3 @@
-name: smoothies_env
-channels:
-  - conda-forge
-dependencies:
-  - python=3.10
-  - pip
-  - pip:
+
       - snowflake-snowpark-python
       - streamlit
